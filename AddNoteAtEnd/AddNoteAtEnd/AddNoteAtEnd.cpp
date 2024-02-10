@@ -28,7 +28,7 @@ void append(Node** head_ref, int new_data) {
     // it as NULL
     new_node->next = NULL;
 
-    // 4. If the Linked List is empty,
+    //// 4. If the Linked List is empty,
     // then make the new node as head
     if (*head_ref == NULL) {
         *head_ref = new_node;
